@@ -1,9 +1,17 @@
+->  Initial Setup Database Query available in "SqlQuery.sql" file
 ->  Authentication 
     Login/Registration done
+    Demo Accounts
+    Admin
+        email: "admin@example.com"
+        password: "admin"
+    User
+        email: "test@example.com"
+        password: "admin"
 -> Authorization
     User & Admin Roles
     
-# Clea Architecture Design    
+# Clean Architecture Design    
 -> Presentation/API Layer
     File Logging via Serilog
     Global Error handling via ExceptionHandler("/error")
